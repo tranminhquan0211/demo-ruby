@@ -62,7 +62,7 @@
     width: 70%;
     height: auto;
     line-height: 25px;
-    margin-left: 150px;
+    margin: 0 auto;
     font-size: 16px;
     background: white;
     padding: 16px;
@@ -138,3 +138,29 @@ section.product-info {
 section.product img {
   box-shadow: 2px 2px 10px #0000001a;
 }
+.login-trangchu {
+    width: 50%;
+    height: auto;
+    line-height: 30px;
+    font-size: 18px;
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #0000001a;
+    margin: 30px auto;
+}
+.login-trangchu input{
+  width:100%;
+  height:22px;
+}
+.login-trangchu input[type="submit"]{
+  width: 101.5%;
+  }
+  .login-trangchu h2{
+    text-align: center;
+    font-size: 50px;
+  } 
+  .login-trangchu a{
+    text-align: right;
+    font-size: 10px;
+  }
