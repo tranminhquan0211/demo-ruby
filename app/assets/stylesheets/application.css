@@ -11,16 +11,19 @@
  body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
-  }
-  
+    background-color: #F6F6F6;
+ }
   nav {
     justify-content: flex-end;
     display: flex;
     font-size: 0.875em;
     gap: 0.5rem;
-    max-width: 1024px;
+    width: 1024px;
     margin: 0 auto;
     padding: 1rem;
+    background:white;
+    box-shadow: 2px 2px 10px #0000001a;
+    border-radius: 10px;
   }
   
   nav a {
@@ -40,6 +43,10 @@
     display: flex;
     gap: 1rem;
     flex-direction: row;
+    background:white;
+    box-shadow: 2px 2px 10px #0000001a;
+    padding:15px;
+    border-radius: 10px;
   }
   
   section.product img {
@@ -47,4 +54,87 @@
     flex-basis: 50%;
     max-width: 50%;
   }
-  
+  .title-themsanpham{
+    text-align: center;
+  }
+  .form-themsanpham {
+    align-content: center;
+    width: 70%;
+    height: auto;
+    line-height: 25px;
+    margin-left: 150px;
+    font-size: 16px;
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top:20px;
+    box-shadow: 2px 2px 10px #0000001a;
+  }
+  .form-themsanpham a {
+    background: #5CC0DC;
+    border-radius: 10px;
+    padding: 10px 35px 10px 35px;
+    line-height: 50px;
+    width: 100%;
+  }
+  .form-themsanpham input{
+    width:99%;
+    height:22px;
+  }
+  .capnhatsanpham input{
+    width:100%;
+  }
+  .capnhatsanpham {
+    line-height: 50px;
+}
+.sanphamtrangchu {
+  display: flex;
+  gap:18px;
+  background: white;
+  padding:14px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.sanphamtrangchu img {  
+  width: 210px;
+  height: 200px;
+}
+.box-sp {
+  padding: 10px;
+  background: white;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  border-radius: 10px;
+}
+div#products {
+  background: white;
+  box-shadow: 2px 2px 10px #0000001a;
+  padding:14px;
+  border-radius: 10px;
+  margin-top:20px;
+}
+.themsanphammoi a {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 10px #0000001a;
+}
+.box-sp img {
+  height: auto;
+  border-radius: 5px;
+}
+.body-trangchu {
+  background: white;
+  padding: 11px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+section.product-info {
+  width: 100%;
+  box-shadow: 2px 2px 10px #0000001a;
+  border-radius: 10px;
+  padding: 10px;
+}
+section.product img {
+  box-shadow: 2px 2px 10px #0000001a;
+}

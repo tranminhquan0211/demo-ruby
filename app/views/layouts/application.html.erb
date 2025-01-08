@@ -23,11 +23,12 @@
   </head>
 
   <body>
+  <div class="notice" style = "display:no ne"><%= notice %></div>
   <nav>
   <%= link_to "Home", root_path %>
+  <%= link_to 'Sản phẩm', products_path %>
   <%= button_to "Log out", session_path, method: :delete if authenticated? %>
 </nav>
-<div class="notice"><%= notice %></div>
 <main>
   <%= yield %>
 </main>
