@@ -111,13 +111,24 @@ div#products {
   padding:14px;
   border-radius: 10px;
   margin-top:20px;
+  line-height: 25px;
 }
-.themsanphammoi a {
+.themsanphammoi {
   background: white;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 6px;
   margin-bottom: 10px;
   box-shadow: 2px 2px 10px #0000001a;
+  display: flex;
+  justify-content: center;
+  width: 150px !important;
+}
+.themsanphammoi a{
+
+}
+.themsanphammoi:hover {
+  background:#bfbfbf ;
+  color:white;
 }
 .box-sp img {
   height: auto;
